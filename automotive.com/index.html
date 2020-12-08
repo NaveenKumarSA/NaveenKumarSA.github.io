@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AUTOMOTIVE | Home</title>
+    <!-- Animate.css Library cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- fonts from fonts.google.com -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"
       rel="stylesheet"
     />
     <!-- linking style sheet -->
@@ -50,9 +56,16 @@
       <h3>Please , Scroll down for fun</h3>
     </header>
     <main class="container">
-      <div class="form-group">
+      <label for=""> Dark Theme</label>
+      <!-- Rounded switch -->
+      <label class="switch">
+        <input onchange="darkTheme()" type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+      <input type="checkbox" onchange="darkTheme()" name="" id="" />
+      <div onclick="darkTheme()" class="form-group">
         <button class="badge bg-light">
-          <h5 onclick="darkTheme()">Dark Theme</h5>
+          <h5>Dark Theme</h5>
         </button>
       </div>
       <!-- 1 -->
@@ -68,14 +81,16 @@
           class="inverted"
         />
         <div>
-          <h3>Lambo</h3>
+          <h3 data-aos="fade-down">
+            <b><strong>Lambo</strong></b>
+          </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iusto
             libero quasi nostrum? Illum soluta possimus tempore? Asperiores
             dolore veritatis doloribus deserunt expedita aperiam quae maxime
             architecto dicta in. Maiores.
           </p>
-          <a href="#" class="btn">View Now</a>
+          <a href="#" class="btn m-3" data-aos="flip-down">View Now</a>
         </div>
       </section>
       <!-- 2 -->
@@ -91,14 +106,16 @@
           class="inverted"
         />
         <div>
-          <h3>Benz</h3>
+          <h3 data-aos="fade-down">
+            <b><strong>Benz</strong></b>
+          </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iusto
             libero quasi nostrum? Illum soluta possimus tempore? Asperiores
             dolore veritatis doloribus deserunt expedita aperiam quae maxime
             architecto dicta in. Maiores.
           </p>
-          <a href="#" class="btn">View Now</a>
+          <a href="#" class="btn m-3" data-aos="flip-down">View Now</a>
         </div>
       </section>
       <!-- 3 -->
@@ -114,14 +131,16 @@
           class="inverted"
         />
         <div>
-          <h3>Mustang</h3>
+          <h3 data-aos="fade-down">
+            <b><strong>Mustang</strong></b>
+          </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iusto
             libero quasi nostrum? Illum soluta possimus tempore? Asperiores
             dolore veritatis doloribus deserunt expedita aperiam quae maxime
             architecto dicta in. Maiores.
           </p>
-          <a href="#" class="btn">View Now</a>
+          <a href="#" class="btn m-3" data-aos="flip-down">View Now</a>
         </div>
       </section>
       <!-- 4 -->
@@ -137,14 +156,16 @@
           class="inverted"
         />
         <div>
-          <h3>Audi</h3>
+          <h3 data-aos="fade-down">
+            <b><strong>Audi</strong></b>
+          </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iusto
             libero quasi nostrum? Illum soluta possimus tempore? Asperiores
             dolore veritatis doloribus deserunt expedita aperiam quae maxime
             architecto dicta in. Maiores.
           </p>
-          <a href="#" class="btn">View Now</a>
+          <a href="#" class="btn m-3" data-aos="flip-down">View Now</a>
         </div>
       </section>
       <!-- 5 -->
@@ -160,17 +181,24 @@
           class="inverted"
         />
         <div>
-          <h3>Porsche</h3>
+          <h3 data-aos="fade-down">
+            <b><strong>Porsche</strong></b>
+          </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iusto
             libero quasi nostrum? Illum soluta possimus tempore? Asperiores
             dolore veritatis doloribus deserunt expedita aperiam quae maxime
             architecto dicta in. Maiores.
           </p>
-          <a href="#" class="btn">View Now</a>
+          <a href="#" class="btn m-3" data-aos="flip-down">View Now</a>
         </div>
       </section>
     </main>
+    <footer class="jumbotron bg-dark align-middle text-center">
+      Copyright @
+      <a href="https://naveenkumarsa.github.io"> Naveen's Websites </a>
+    </footer>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       function darkTheme() {
