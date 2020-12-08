@@ -10,6 +10,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.3rem;
   background: #f9f9f9;
+  height: 100%;
 }
 a {
   color: #333333;
@@ -111,15 +112,19 @@ img {
   filter: invert(1) hue-rotate(180deg);
 }
 .insideJumboTag {
-  height: 350px;
-  width: 100px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  position: relative;
+  color: white;
 }
 .Welcome_pageDiv {
-  background-image: url("https://images.unsplash.com/photo-1581893106728-1e2197903b0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1581893106728-1e2197903b0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   height: 450px;
 }
 .typewriter {
@@ -127,111 +132,90 @@ img {
   /* margin top 5 is required  */
 }
 /* DEMO-SPECIFIC STYLES */
-.typewriter h1::before {
-  content: "  ";
+.typewriter p::before {
+  content: "";
+  /* max-width: 360px; */
   color: rgb(63, 60, 60);
   font-family: "Josefin Sans";
-
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-
+  font-size: 5vw;
+  overflow: scroll; /* Ensures the content is not revealed until the animation */
+  text-align: center;
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  margin: 0; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0; /* Adjust as needed */
 
-  animation: typing 5s step-start infinite 2s,
+  animation: typing 5s steps(30, end) infinite 4s,
     blink-caret 0.45s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
   0% {
-    width: 10%;
     content: " I am ";
   }
   3% {
-    width: 20%;
     content: " I am ";
   }
   5% {
-    width: 30%;
     content: " I am a  ";
   }
   10% {
-    width: 50%;
     content: " I am a Web ";
   }
   15% {
-    width: 75%;
     content: " I am a Web Dev ";
   }
   20% {
-    width: 100%;
     content: " I am a Web Develo ";
   }
   25% {
-    width: 100%;
     content: " I am a Web Developer ";
   }
   30% {
-    width: 100%;
     content: " I am a Web Developer ";
   }
   35% {
-    width: 100%;
     content: " I am a Web Deve ";
   }
   40% {
-    width: 100%;
     content: " I am a Web D ";
   }
   45% {
-    width: 100%;
     content: " I am a We ";
   }
   50% {
-    width: 100%;
     content: " I am a F  ";
   }
   55% {
-    width: 100%;
     content: " I am a Fu ";
   }
   60% {
-    width: 100%;
     content: " I am a Full ";
   }
   65% {
-    width: 100%;
     content: " I am a Full St ";
   }
   70% {
-    width: 100%;
     content: " I am a Full Stac ";
   }
   75% {
-    width: 100%;
     content: " I am a Full Stack We";
   }
   80% {
-    width: 100%;
     content: " I am a Full Stack Web De ";
   }
   85% {
-    width: 100%;
     content: " I am a Full Stack Web Deve ";
   }
   90% {
-    width: 100%;
     content: " I am a Full Stack Web Develo ";
   }
   95% {
-    width: 100%;
     content: " I am a Full Stack Web Develope ";
   }
   100% {
-    width: 100%;
-    content: " I am a Full Stact Web Developer ";
+    content: " I am a Full StacK Web Developer ";
   }
 } /* The typewriter cursor effect */
 @keyframes blink-caret {
@@ -239,6 +223,6 @@ img {
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: rgb(255, 132, 0);
   }
 }
