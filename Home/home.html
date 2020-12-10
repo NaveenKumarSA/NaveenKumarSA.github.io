@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- Trail run isnt working as i expected  -->
+  <body>
+    <div id="mapDiv"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtmy7SEOYIqEcrrTyVxhpSsDr7LnBcIKE&callback=initMap"
+    >
+      console.log("insideScript 1 ")
+      let map;
+
+           function initMap(){
+             map = new google.maps.Map(document.getElementById("mapDiv"), {
+               center: { lat: -34.39, lng: 150.644 },
+               zoom: 8,
+             });
+           };
+    </script>
+    <script></script>
+  </body>
+</html>
