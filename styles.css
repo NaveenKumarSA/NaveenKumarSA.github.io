@@ -215,7 +215,7 @@ img {
     content: " I am a Full Stack Web Develope ";
   }
   100% {
-    content: " I am a Full StacK Web Developer ";
+    content: " I am a Full Stack Web Developer ";
   }
 } /* The typewriter cursor effect */
 @keyframes blink-caret {
