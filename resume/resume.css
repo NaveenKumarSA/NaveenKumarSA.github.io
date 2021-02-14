@@ -1,0 +1,64 @@
+/* abcde */
+body {
+  padding: 2%;
+  font-family: "Comfortaa", cursive;
+
+  /* color: rgb(130, 124, 124);
+   background-image: url("https://images.unsplash.com/photo-1611485916153-fce531587fe0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+
+  background-repeat: no-repeat;
+  background-size: cover;  */
+}
+.button_style {
+  border: 2px solid tomato;
+}
+.darkTheme {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* fghij */
+.footer_icon {
+  width: 15%;
+  border-radius: 50%;
+  border: 1.2px double rgb(77, 69, 67);
+}
+.greyColor {
+  color: rgb(130, 124, 124);
+}
+.header_div {
+  color: rgb(130, 124, 124);
+  /* position: absolute;*/
+  top: 5%;
+}
+h3 > b {
+  text-transform: uppercase;
+}
+.icon_style {
+  width: 10%;
+  border-radius: 50%;
+  border: 1.2px double orangered;
+}
+.invert {
+  filter: invert(1) hue-rotate(180deg);
+}
+/* klmno */
+.name_address_div {
+  top: 50%;
+  padding-top: 0%;
+}
+.objective_div {
+  position: relative;
+  margin: 0%;
+}
+/* pqrst */
+.profile_image {
+  width: 50%;
+  border-radius: 50%;
+  border: 3px solid orange;
+}
+.profSkills_div {
+}
+.text_decoration_none {
+  text-decoration: none;
+}
+/* uvwxyz */
