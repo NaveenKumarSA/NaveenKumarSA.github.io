@@ -13,6 +13,7 @@ body {
   border-radius: 5px;
   width: 25%;
   border: 2px double orange;
+  cursor: pointer;
 }
 .button_style {
   border: 2px solid tomato;
@@ -65,6 +66,7 @@ h3 > b {
 .profSkills_div {
 }
 .text_decoration_none {
+  cursor: pointer;
   text-decoration: none;
 }
 /* uvwxyz */
