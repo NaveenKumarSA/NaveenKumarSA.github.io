@@ -9,8 +9,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;  */
 }
+.border_Black {
+  border-radius: 5px;
+  width: 25%;
+  border: 2px double orange;
+}
 .button_style {
   border: 2px solid tomato;
+  width: 100%;
 }
 .darkTheme {
   filter: invert(1) hue-rotate(180deg);
