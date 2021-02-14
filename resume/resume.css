@@ -68,3 +68,9 @@ h3 > b {
   text-decoration: none;
 }
 /* uvwxyz */
+/* media rule */
+@media only screen and (max-width: 600px) {
+  .border_Black {
+    width: 100%;
+  }
+}
