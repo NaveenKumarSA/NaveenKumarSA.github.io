@@ -28,6 +28,7 @@ body {
   width: 15%;
   border-radius: 50%;
   border: 1.2px double rgb(77, 69, 67);
+  box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 97%);
 }
 .greyColor {
   color: rgb(130, 124, 124);
@@ -44,6 +45,7 @@ h3 > b {
   width: 10%;
   border-radius: 50%;
   border: 1.2px double orangered;
+  box-shadow: -1px 13px 15px -7px rgb(0 0 0 / 98%);
 }
 .invert {
   filter: invert(1) hue-rotate(180deg);
@@ -62,6 +64,7 @@ h3 > b {
   width: 50%;
   border-radius: 5%;
   border: 3px solid orange;
+  box-shadow: -1px 13px 66px -25px rgb(0 0 0 / 98%);
 }
 .profSkills_div {
 }
@@ -69,7 +72,7 @@ h3 > b {
   cursor: pointer;
   text-decoration: none;
 }
-.dtButton{
+.dtButton {
   margin-top: 3% !important;
 }
 /* uvwxyz */
@@ -77,7 +80,8 @@ h3 > b {
 @media only screen and (max-width: 600px) {
   .border_Black {
     width: 100%;
-  }.dtButton{
-  margin-top: 2% !important;
-}
+  }
+  .dtButton {
+    margin-top: 2% !important;
+  }
 }
