@@ -60,8 +60,7 @@ h3 > b {
 /* pqrst */
 .profile_image {
   width: 50%;
- 
-  border-radius: 50%;
+  border-radius: 5%;
   border: 3px solid orange;
 }
 .profSkills_div {
@@ -70,10 +69,15 @@ h3 > b {
   cursor: pointer;
   text-decoration: none;
 }
+.dtButton{
+  margin-top: 3% !important;
+}
 /* uvwxyz */
 /* media rule */
 @media only screen and (max-width: 600px) {
   .border_Black {
     width: 100%;
-  }
+  }.dtButton{
+  margin-top: 2% !important;
+}
 }
