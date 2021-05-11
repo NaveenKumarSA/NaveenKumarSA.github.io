@@ -84,4 +84,8 @@ h3 > b {
   .dtButton {
     margin-top: 2% !important;
   }
+  .profile_image {
+   margin-bottom: 5%;
+   box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 97%);
+  }
 }
