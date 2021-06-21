@@ -61,12 +61,12 @@ h3 > b {
 }
 /* pqrst */
 .profile_pic {
-  margin: 5px;
-  width: 15%;
-  height: 15%;
+  margin: 0px;
+  width: 60%;
+  height: 100%;
   position: relative;
   border: 3px solid #ff8400;
-  border-radius: 4%; 
+  border-radius: 4%;
   padding: 1%;
   box-shadow: 10px 10px 25px -4px rgb(0 0 0 / 75%);
 }
