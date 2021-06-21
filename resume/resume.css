@@ -55,13 +55,13 @@ h3 > b {
   top: 50%;
   padding-top: 0%;
 }
-.objective_div {
+.objective_div {  
   position: relative;
   margin: 0%;
 }
 /* pqrst */
 .profile_pic {
-  margin: 0px;
+  margin: 1px;
   width: 60%;
   height: 100%;
   position: relative;
