@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+.profile-img {
+    transition: transform 0.3s ease-in-out;
+}
+.profile-img:hover {
+    transform: scale(1.1);
+}
+.btn:hover {
+    transform: scale(1.07);
+}
+footer a {
+    margin: 5px;
+}
+.text-primary{
+    color: #5ea3df !important;
+}
+.text-primary-name {
+    color: #3d6181 !important;
+}
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.hover-effect:hover {
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+.hover-button {
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.hover-button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+} 
+.cursor-pointer{
+    cursor: pointer;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+}
+
