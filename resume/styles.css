@@ -47,3 +47,18 @@ footer a {
     justify-content: center;
 }
 
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .profile-img {
+        width: 225px;
+        height: 250px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        transition: transform 0.3s ease-in-out;
+    }
+    .profile-img:hover {
+        transform: scale(1.1);
+    }
+}
+
